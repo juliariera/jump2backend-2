@@ -21,3 +21,18 @@
 * Groovy version 3.0.17
 
 ### Información técnica de la Api consultar la Wiki. 
+
+## Equipo #2 Jump2Digital
+
+### DataScience
+* Sergio Chueco Medin
+* Júlia Riera Perramon
+
+### BackEnd
+* Pau Sansa Verdu
+* Luis Trujillo
+
+### FrontEnd
+
+
+  
