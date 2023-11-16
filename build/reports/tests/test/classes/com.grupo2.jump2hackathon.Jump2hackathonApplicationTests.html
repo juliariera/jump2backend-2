@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.022s</div>
+<div class="counter">0.016s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 <a name="contextLoads()"></a>
 <h3 class="failures">contextLoads()</h3>
 <span class="code">
-<pre>java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@76e90da5 testClass = com.grupo2.jump2hackathon.Jump2hackathonApplicationTests, locations = [], classes = [com.grupo2.jump2hackathon.Jump2hackathonApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceLocations = [], propertySourceProperties = [&quot;org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true&quot;], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@2cc44ad, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@59d2400d, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@9ef8eb7, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@52066604, org.springframework.boot.test.context.SpringBootTestAnnotation@9163d804], resourceBasePath = &quot;src/main/webapp&quot;, contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+<pre>java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@59838256 testClass = com.grupo2.jump2hackathon.Jump2hackathonApplicationTests, locations = [], classes = [com.grupo2.jump2hackathon.Jump2hackathonApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceLocations = [], propertySourceProperties = [&quot;org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true&quot;], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@447a020, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1817f1eb, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@10ded6a9, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6c45ee6e, org.springframework.boot.test.context.SpringBootTestAnnotation@82fc3b56], resourceBasePath = &quot;src/main/webapp&quot;, contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:143)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
 	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
@@ -356,7 +356,7 @@ Caused by: java.lang.IllegalArgumentException: No enum constant org.bson.UuidRep
 </thead>
 <tr>
 <td class="failures">contextLoads()</td>
-<td class="failures">0.022s</td>
+<td class="failures">0.016s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -364,8 +364,8 @@ Caused by: java.lang.IllegalArgumentException: No enum constant org.bson.UuidRep
 <div id="tab2" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>13:09:06.356 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.grupo2.jump2hackathon.Jump2hackathonApplicationTests]: Jump2hackathonApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-13:09:06.689 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.grupo2.jump2hackathon.Jump2hackathonApplication for test class com.grupo2.jump2hackathon.Jump2hackathonApplicationTests
+<pre>13:33:09.197 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.grupo2.jump2hackathon.Jump2hackathonApplicationTests]: Jump2hackathonApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:33:09.577 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.grupo2.jump2hackathon.Jump2hackathonApplication for test class com.grupo2.jump2hackathon.Jump2hackathonApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -375,15 +375,15 @@ Caused by: java.lang.IllegalArgumentException: No enum constant org.bson.UuidRep
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.5)
 
-2023-11-16T13:09:08.305+01:00  INFO 19852 --- [    Test worker] c.g.j.Jump2hackathonApplicationTests     : Starting Jump2hackathonApplicationTests using Java 17.0.9 with PID 19852 (started by Muni in C:\Users\Muni\OneDrive\Desktop\jump2backend-2)
-2023-11-16T13:09:08.309+01:00  INFO 19852 --- [    Test worker] c.g.j.Jump2hackathonApplicationTests     : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2023-11-16T13:09:10.230+01:00  INFO 19852 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2023-11-16T13:09:10.395+01:00  INFO 19852 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 147 ms. Found 1 MongoDB repository interfaces.
-2023-11-16T13:09:11.469+01:00  WARN 19852 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'barrioService' defined in file [C:\Users\Muni\OneDrive\Desktop\jump2backend-2\build\classes\java\main\com\grupo2\jump2hackathon\service\BarrioService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'barrioRepository' defined in com.grupo2.jump2hackathon.repository.BarrioRepository defined in @EnableMongoRepositories declared on MongoRepositoriesRegistrar.EnableMongoRepositoriesConfiguration: Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'
-2023-11-16T13:09:11.507+01:00  INFO 19852 --- [    Test worker] .s.b.a.l.ConditionEvaluationReportLogger : 
+2023-11-16T13:33:11.398+01:00  INFO 1772 --- [    Test worker] c.g.j.Jump2hackathonApplicationTests     : Starting Jump2hackathonApplicationTests using Java 17.0.9 with PID 1772 (started by Muni in C:\Users\Muni\OneDrive\Desktop\jump2backend-2)
+2023-11-16T13:33:11.402+01:00  INFO 1772 --- [    Test worker] c.g.j.Jump2hackathonApplicationTests     : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-11-16T13:33:13.563+01:00  INFO 1772 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-11-16T13:33:13.720+01:00  INFO 1772 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 137 ms. Found 1 MongoDB repository interfaces.
+2023-11-16T13:33:15.127+01:00  WARN 1772 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'barrioService' defined in file [C:\Users\Muni\OneDrive\Desktop\jump2backend-2\build\classes\java\main\com\grupo2\jump2hackathon\service\BarrioService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'barrioRepository' defined in com.grupo2.jump2hackathon.repository.BarrioRepository defined in @EnableMongoRepositories declared on MongoRepositoriesRegistrar.EnableMongoRepositoriesConfiguration: Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'
+2023-11-16T13:33:15.149+01:00  INFO 1772 --- [    Test worker] .s.b.a.l.ConditionEvaluationReportLogger : 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2023-11-16T13:09:11.591+01:00 ERROR 19852 --- [    Test worker] o.s.b.d.LoggingFailureAnalysisReporter   : 
+2023-11-16T13:33:15.218+01:00 ERROR 1772 --- [    Test worker] o.s.b.d.LoggingFailureAnalysisReporter   : 
 
 ***************************
 APPLICATION FAILED TO START
@@ -408,9 +408,9 @@ Update your application's configuration. The following values are valid:
     STANDARD
     UNSPECIFIED
 
-2023-11-16T13:09:11.631+01:00 ERROR 19852 --- [    Test worker] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.grupo2.jump2hackathon.Jump2hackathonApplicationTests@4e3e11b9]
+2023-11-16T13:33:15.261+01:00 ERROR 1772 --- [    Test worker] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.grupo2.jump2hackathon.Jump2hackathonApplicationTests@131a7516]
 
-java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@76e90da5 testClass = com.grupo2.jump2hackathon.Jump2hackathonApplicationTests, locations = [], classes = [com.grupo2.jump2hackathon.Jump2hackathonApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceLocations = [], propertySourceProperties = [&quot;org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true&quot;], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@2cc44ad, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@59d2400d, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@9ef8eb7, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@52066604, org.springframework.boot.test.context.SpringBootTestAnnotation@9163d804], resourceBasePath = &quot;src/main/webapp&quot;, contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@59838256 testClass = com.grupo2.jump2hackathon.Jump2hackathonApplicationTests, locations = [], classes = [com.grupo2.jump2hackathon.Jump2hackathonApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceLocations = [], propertySourceProperties = [&quot;org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true&quot;], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@447a020, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1817f1eb, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@10ded6a9, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6c45ee6e, org.springframework.boot.test.context.SpringBootTestAnnotation@82fc3b56], resourceBasePath = &quot;src/main/webapp&quot;, contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:143) ~[spring-test-6.0.13.jar:6.0.13]
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127) ~[spring-test-6.0.13.jar:6.0.13]
 	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191) ~[spring-test-6.0.13.jar:6.0.13]
@@ -722,7 +722,7 @@ Unconditional classes:
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.4</a> at Nov 16, 2023, 1:09:12 PM</p>
+<a href="http://www.gradle.org">Gradle 8.4</a> at Nov 16, 2023, 1:33:15 PM</p>
 </div>
 </div>
 </body>
