@@ -27,7 +27,7 @@
 ### DataScience
 * Sergio Chueco Medin
 * Júlia Riera Perramon
-* Jose Lius
+* Jose Luis García Tucci
 
 ### BackEnd
 * Pau Sansa Verdu
