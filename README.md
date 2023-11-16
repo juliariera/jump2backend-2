@@ -37,5 +37,6 @@
 ### FrontEnd
 * Anna Esteve Romagosa
 * Néstor Torres
+* Lua Trevín Hernaiz
 
   
