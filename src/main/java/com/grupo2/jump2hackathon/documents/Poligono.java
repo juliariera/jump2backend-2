@@ -8,5 +8,5 @@ import java.util.List;
 @Builder
 public class Poligono {
     private String type;
-    private List<List<Float>> coordinates;
+    private Geometry geometry;
 }
