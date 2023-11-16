@@ -1,4 +1,4 @@
-package com.grupo2.jump2hackathon;
+package com.grupo2.jump2hackathon.controller;
 
 import lombok.Getter;
 import org.springframework.web.bind.annotation.GetMapping;
