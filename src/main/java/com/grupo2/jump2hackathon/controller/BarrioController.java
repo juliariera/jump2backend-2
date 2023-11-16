@@ -2,7 +2,6 @@ package com.grupo2.jump2hackathon.controller;
 
 import com.grupo2.jump2hackathon.documents.Barrio;
 import com.grupo2.jump2hackathon.service.BarrioService;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 import org.springframework.web.bind.annotation.GetMapping;
