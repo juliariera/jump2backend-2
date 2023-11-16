@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Jump2hackathonApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(Jump2hackathonApplication.class, args);
 	}
 
