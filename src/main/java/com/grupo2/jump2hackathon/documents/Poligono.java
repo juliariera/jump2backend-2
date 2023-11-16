@@ -17,4 +17,5 @@ public class Poligono {
     private String id;
     private String type;
     private Geometry geometry;
+    private Properties properties;
 }

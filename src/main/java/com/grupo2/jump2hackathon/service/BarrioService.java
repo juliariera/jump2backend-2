@@ -15,6 +15,7 @@ public class BarrioService {
     private final BarrioRepository barrioRepository;
 
     public List<Barrio> getAllBarrios() {
+        List<Barrio> barriosSinPoligono = barrioRepository.findAll();
 
         return barrioRepository.findAll();
     }
