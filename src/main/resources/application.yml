@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uuid-representation: standard
+      uuid-representation: standard //uuid formato para mongo
       uri: mongodb+srv://jupm2digital.uikcavy.mongodb.net/?retryWrites=true&w=majority
       password: w8IIEs2mmNhTwdIN
       username: grupo2
