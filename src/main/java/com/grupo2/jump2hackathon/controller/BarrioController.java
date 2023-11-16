@@ -1,8 +1,10 @@
 package com.grupo2.jump2hackathon.controller;
 
 import com.grupo2.jump2hackathon.documents.Barrio;
+import com.grupo2.jump2hackathon.documents.Poligono;
 import com.grupo2.jump2hackathon.service.BarrioService;
 
+import com.grupo2.jump2hackathon.service.PoligonoService;
 import jakarta.websocket.server.PathParam;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -23,11 +25,12 @@ import java.util.UUID;
 @RequiredArgsConstructor
 public class BarrioController {
     private final BarrioService barrioService;
+    private final PoligonoService poligonoService;
 
     @GetMapping("/test")
-    public ResponseEntity<List<Barrio>> getAllBarrios(){
+    public List<Poligono> getAllBarrios(){
 
-        return new ResponseEntity<>(barrioService.barriosPrueba(), HttpStatus.OK);
+        return poligonoService.getAll();
     }
 
     @GetMapping("/all")
