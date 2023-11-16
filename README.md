@@ -27,12 +27,15 @@
 ### DataScience
 * Sergio Chueco Medin
 * Júlia Riera Perramon
+* Jose Luis Garcia
 
 ### BackEnd
 * Pau Sansa Verdu
 * Luis Trujillo
+* Pedro Tejero
 
 ### FrontEnd
-
+* Anna Esteve Romagosa
+* Néstor Torres
 
   
