@@ -13,8 +13,6 @@ import java.util.UUID;
 @Builder
 @Document(collection = "poligons")
 public class Poligono {
-    @MongoId
-    private String id;
     private String type;
     private Geometry geometry;
     private Properties properties;
