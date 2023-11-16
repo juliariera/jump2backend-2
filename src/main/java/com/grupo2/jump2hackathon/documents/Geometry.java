@@ -14,6 +14,6 @@ import java.util.List;
 @Builder
 public class Geometry {
 
-    private List<List<Float>>coordinates;
+    private List<List<List<Double>>> coordinates;
     private String type;
 }

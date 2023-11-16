@@ -3,4 +3,4 @@ spring:
     mongodb:
       uuid-representation: standard
       uri: mongodb+srv://grupo2:w8IIEs2mmNhTwdIN@jupm2digital.uikcavy.mongodb.net/
-      database: jupm2digital
+      database: jump2digital
