@@ -36,4 +36,6 @@ public class Barrio {
     private Integer nQuotidiaNoAlimentari;
     @Field(name= "nserveis")
     private Integer nServeis;
+    private Integer preuM2;
+    private Integer preuMitja;
 }
