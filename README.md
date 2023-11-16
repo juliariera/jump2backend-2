@@ -1,14 +1,5 @@
 ## Jump2DigitalChallenge
 
-### Versiones necesarias
-
-* Java Version 17.0.9
-* React Version 18.2.0
-* Mongo version 6.0.0
-* gradle version 8.4.0 
-* Kotlin version 1.9.10
-* Groovy version 3.0.17
-
 ## Para ejecutar la aplicación: 
 
 * Tener instalado Java
@@ -19,3 +10,14 @@
 * Una vez la aplicacion este ejecutandose tienes la opción de usar entornos de prueba como
   pueden ser Postman, Swagger o directamente desde una ventana de tu buscador de preferencia.
 * Para llamar a los endpoints debes usar la URL https://jump2backend-edfad82cc29e.herokuapp.com/ + acceso al endpoint
+
+## Versiones utilizadas
+
+* Java Version 17.0.9
+* React Version 18.2.0
+* Mongo version 6.0.0
+* gradle version 8.4.0
+* Kotlin version 1.9.10
+* Groovy version 3.0.17
+
+### Información técnica de la Api consultar la Wiki. 

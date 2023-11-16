@@ -1,9 +1,6 @@
 package com.grupo2.jump2hackathon.documents;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-
+import lombok.*;
 import java.util.List;
 
 @Data
