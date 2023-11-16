@@ -2,3 +2,7 @@ spring:
   data:
     mongodb:
       uuid-representation: standard
+      uri: mongodb+srv://jupm2digital.uikcavy.mongodb.net/?retryWrites=true&w=majority
+      password: w8IIEs2mmNhTwdIN
+      username: grupo2
+      database: jump2digital
